@@ -99,16 +99,16 @@ footer {
   }
 
   .logo {
-    width: 90px;
-    margin-bottom: 15px;
+    width: 300px;       
+    margin-bottom: 20px;
   }
 
   h1 {
-    font-size: 1.5rem;
+    font-size: 3.5rem;
   }
 
   p {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   .btn {
@@ -119,11 +119,11 @@ footer {
 
 @media (max-width: 480px) {
   h1 {
-    font-size: 1.3rem;
+    font-size: 3.5rem;
   }
 
   p {
-    font-size: 0.95rem;
+    font-size: 1.1rem;
   }
 
   .btn {
