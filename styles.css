@@ -92,3 +92,42 @@ footer {
     background: rgba(0, 0, 0, 0.2);
     text-transform: lowercase;
 }
+
+@media (max-width: 768px) {
+  .content {
+    padding: 15px;
+  }
+
+  .logo {
+    width: 90px;
+    margin-bottom: 15px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .btn {
+    padding: 12px 25px;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.3rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
