@@ -98,6 +98,10 @@ footer {
     padding: 15px;
   }
 
+body {
+    font-family: 'Whitney';
+}
+
   .logo {
     width: 300px;       
     margin-bottom: 20px;
@@ -118,6 +122,12 @@ footer {
 }
 
 @media (max-width: 480px) {
+    body {
+    font-family: 'Whitney';
+   }
+
+
+    
   h1 {
     font-size: 3.5rem;
   }
